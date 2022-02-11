@@ -1,0 +1,73 @@
+2022-02-11 12:07:20.396 MSK [16296] LOG:  starting PostgreSQL 14.2, compiled by Visual C++ build 1914, 64-bit
+2022-02-11 12:07:20.397 MSK [16296] LOG:  listening on IPv6 address "::", port 5432
+2022-02-11 12:07:20.397 MSK [16296] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-11 12:07:20.440 MSK [12504] LOG:  database system was shut down at 2022-02-11 12:05:37 MSK
+2022-02-11 12:07:20.538 MSK [16296] LOG:  database system is ready to accept connections
+2022-02-11 12:15:35.328 MSK [2252] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 12:17:15.625 MSK [8788] FATAL:  password authentication failed for user "yourprojectuser"
+2022-02-11 12:17:15.625 MSK [8788] DETAIL:  Role "yourprojectuser" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:17:37.645 MSK [16368] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:17:37.645 MSK [16368] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:17:50.132 MSK [14312] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:17:50.132 MSK [14312] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:18:18.551 MSK [14468] FATAL:  password authentication failed for user "exit"
+2022-02-11 12:18:18.551 MSK [14468] DETAIL:  Role "exit" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:18:39.087 MSK [16600] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:18:39.087 MSK [16600] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:18:56.884 MSK [17200] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:18:56.884 MSK [17200] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:19:08.053 MSK [17220] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:19:08.053 MSK [17220] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:19:14.537 MSK [13488] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:19:14.537 MSK [13488] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:19:31.509 MSK [12040] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:19:31.509 MSK [12040] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:36:57.982 MSK [3460] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:36:57.982 MSK [3460] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:39:52.071 MSK [12172] FATAL:  password authentication failed for user "admin_2"
+2022-02-11 12:39:52.071 MSK [12172] DETAIL:  Role "admin_2" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:41:12.826 MSK [9900] FATAL:  password authentication failed for user "admin_2"
+2022-02-11 12:41:12.826 MSK [9900] DETAIL:  Role "admin_2" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:41:25.510 MSK [16360] FATAL:  password authentication failed for user "Pavel"
+2022-02-11 12:41:25.510 MSK [16360] DETAIL:  Role "Pavel" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:42:30.950 MSK [16992] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:42:30.950 MSK [16992] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:42:37.356 MSK [12684] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:42:37.356 MSK [12684] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:42:47.278 MSK [14868] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:42:47.278 MSK [14868] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:44:32.261 MSK [16976] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:44:32.261 MSK [16976] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:44:36.407 MSK [17140] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:44:36.407 MSK [17140] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:54:19.317 MSK [3680] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:54:19.317 MSK [3680] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:54:26.188 MSK [3316] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:54:26.188 MSK [3316] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:55:43.613 MSK [17104] ERROR:  canceling statement due to user request
+2022-02-11 12:55:43.614 MSK [16296] LOG:  received fast shutdown request
+2022-02-11 12:55:43.616 MSK [16296] LOG:  aborting any active transactions
+2022-02-11 12:55:43.637 MSK [16296] LOG:  background worker "logical replication launcher" (PID 17104) exited with exit code 1
+2022-02-11 12:55:43.662 MSK [14792] LOG:  shutting down
+2022-02-11 12:55:43.731 MSK [16296] LOG:  database system is shut down

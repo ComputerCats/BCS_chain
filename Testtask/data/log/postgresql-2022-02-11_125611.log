@@ -1,0 +1,15 @@
+2022-02-11 12:56:11.900 MSK [5784] LOG:  starting PostgreSQL 14.2, compiled by Visual C++ build 1914, 64-bit
+2022-02-11 12:56:11.900 MSK [5784] LOG:  listening on IPv6 address "::", port 5432
+2022-02-11 12:56:11.901 MSK [5784] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-11 12:56:11.956 MSK [6432] LOG:  database system was shut down at 2022-02-11 12:55:43 MSK
+2022-02-11 12:56:12.050 MSK [5784] LOG:  database system is ready to accept connections
+2022-02-11 12:58:16.379 MSK [2132] FATAL:  password authentication failed for user "admin"
+2022-02-11 12:58:16.379 MSK [2132] DETAIL:  Role "admin" does not exist.
+	Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 12:59:25.648 MSK [7896] FATAL:  password authentication failed for user "postgres"
+2022-02-11 12:59:25.648 MSK [7896] DETAIL:  Connection matched pg_hba.conf line 89: "host    all             all             ::1/128                 scram-sha-256"
+2022-02-11 13:12:53.401 MSK [5784] LOG:  received fast shutdown request
+2022-02-11 13:12:53.403 MSK [5784] LOG:  aborting any active transactions
+2022-02-11 13:12:53.419 MSK [5784] LOG:  background worker "logical replication launcher" (PID 6832) exited with exit code 1
+2022-02-11 13:12:53.420 MSK [6732] LOG:  shutting down
+2022-02-11 13:12:53.468 MSK [5784] LOG:  database system is shut down

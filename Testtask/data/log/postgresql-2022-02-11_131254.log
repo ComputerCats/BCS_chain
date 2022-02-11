@@ -1,0 +1,54 @@
+2022-02-11 13:12:54.975 MSK [14928] LOG:  starting PostgreSQL 14.2, compiled by Visual C++ build 1914, 64-bit
+2022-02-11 13:12:54.976 MSK [14928] LOG:  listening on IPv6 address "::", port 5432
+2022-02-11 13:12:54.976 MSK [14928] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-11 13:12:55.015 MSK [12876] LOG:  database system was shut down at 2022-02-11 13:12:53 MSK
+2022-02-11 13:12:55.122 MSK [14928] LOG:  database system is ready to accept connections
+2022-02-11 13:22:42.048 MSK [5824] FATAL:  database "blockchain test task 2" does not exist
+2022-02-11 13:24:02.234 MSK [14700] FATAL:  database "DataBase" does not exist
+2022-02-11 13:52:39.941 MSK [12756] ERROR:  schema "pgagent" does not exist
+2022-02-11 13:52:39.941 MSK [12756] STATEMENT:  SELECT has_schema_privilege('pgagent', 'USAGE')
+2022-02-11 17:41:01.579 MSK [8360] FATAL:  database "E:\blocknain test task 2\Testtask\db.sqlite3" does not exist
+2022-02-11 17:55:39.776 MSK [8684] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 18:10:49.412 MSK [9692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 18:14:29.720 MSK [4428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:09:46.781 MSK [15220] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:10:48.516 MSK [8688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:10:56.522 MSK [6620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:14:01.216 MSK [5388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:15:45.486 MSK [14748] ERROR:  value too long for type character varying(255)
+2022-02-11 19:15:45.486 MSK [14748] STATEMENT:  INSERT INTO "Transaction_data_base_transaction" ("Txid", "description") VALUES ('{''txid'': ''ca112cc2eca6e5901d45e53376e36bf435391eaf44d65864ce19a7b6b4e38b9b'', ''hash'': ''ca112cc2eca6e5901d45e53376e36bf435391eaf44d65864ce19a7b6b4e38b9b'', ''version'': 1, ''size'': 226, ''vsize'': 226, ''weight'': 904, ''locktime'': 0, ''vin'': [{''txid'': ''96f54a754570c8d64066a1c5c90d16c6c186a8e2fd4d3666d995ec62ea4a9a59'', ''vout'': 1, ''scriptSig'': {''asm'': ''3045022100f79dcc7a6730968a0fc59d59d4406440dc565a42c2437dae75ecd859f6bce5e80220201fa478b809601bce29290351bb4e3196e3da3dafc3f702004276a251ad8f90[ALL] 02c0666bcb7ae91f22e4bf33aa0d9d18b36b4279e03d1b4e75874957ce3a8bf3bc'', ''hex'': ''483045022100f79dcc7a6730968a0fc59d59d4406440dc565a42c2437dae75ecd859f6bce5e80220201fa478b809601bce29290351bb4e3196e3da3dafc3f702004276a251ad8f90012102c0666bcb7ae91f22e4bf33aa0d9d18b36b4279e03d1b4e75874957ce3a8bf3bc''}, ''sequence'': 4294967295}], ''vout'': [{''value'': 1.0, ''n'': 0, ''scriptPubKey'': {''asm'': ''OP_DUP OP_HASH160 38d641a667837af51bfcc9cdb0aa6f308fa1b7e3 OP_EQUALVERIFY OP_CHECKSIG'', ''hex'': ''76a91438d641a667837af51bfcc9cdb0aa6f308fa1b7e388ac'', ''reqSigs'': 1, ''type'': ''pubkeyhash'', ''addresses'': [''B9dc8FrB8NHXRG6umrq4TSD7TQZXU4hL8s'']}}, {''value'': 39.0, ''n'': 1, ''scriptPubKey'': {''asm'': ''OP_DUP OP_HASH160 32f7bd61dd50daec7141db60f4a68d263b475745 OP_EQUALVERIFY OP_CHECKSIG'', ''hex'': ''76a91432f7bd61dd50daec7141db60f4a68d263b47574588ac'', ''reqSigs'': 1, ''type'': ''pubkeyhash'', ''addresses'': [''B96aBZv79fTHpS7yA6XD2P6Kb9uSEs14E2'']}}]}', '') RETURNING "Transaction_data_base_transaction"."id"
+2022-02-11 19:16:22.528 MSK [12656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:16:35.989 MSK [14724] ERROR:  value too long for type character varying(255)
+2022-02-11 19:16:35.989 MSK [14724] STATEMENT:  INSERT INTO "Transaction_data_base_transaction" ("Txid", "description") VALUES ('{''txid'': ''3bcc6f43c7eff56c9414ce0b59e4e52a33b80659d042539e6c12a53132c637b2'', ''hash'': ''3bcc6f43c7eff56c9414ce0b59e4e52a33b80659d042539e6c12a53132c637b2'', ''version'': 1, ''size'': 226, ''vsize'': 226, ''weight'': 904, ''locktime'': 0, ''vin'': [{''txid'': ''ca112cc2eca6e5901d45e53376e36bf435391eaf44d65864ce19a7b6b4e38b9b'', ''vout'': 1, ''scriptSig'': {''asm'': ''3045022100b8efa1331b352bb41c6d68d088a12a6865e494ec8267ffce42c1510f05d4013402207f6b3f49a02982357a95e7d7d5732f7e747de00cfc5aba3d364f8d959917a099[ALL] 02c0666bcb7ae91f22e4bf33aa0d9d18b36b4279e03d1b4e75874957ce3a8bf3bc'', ''hex'': ''483045022100b8efa1331b352bb41c6d68d088a12a6865e494ec8267ffce42c1510f05d4013402207f6b3f49a02982357a95e7d7d5732f7e747de00cfc5aba3d364f8d959917a099012102c0666bcb7ae91f22e4bf33aa0d9d18b36b4279e03d1b4e75874957ce3a8bf3bc''}, ''sequence'': 4294967295}], ''vout'': [{''value'': 1.0, ''n'': 0, ''scriptPubKey'': {''asm'': ''OP_DUP OP_HASH160 fe4316edd1eeb256b50d2adbb48c168c89699993 OP_EQUALVERIFY OP_CHECKSIG'', ''hex'': ''76a914fe4316edd1eeb256b50d2adbb48c168c8969999388ac'', ''reqSigs'': 1, ''type'': ''pubkeyhash'', ''addresses'': [''BTdVcuTQsFrptoPar8SRcySriuyE8HmSFZ'']}}, {''value'': 37.9, ''n'': 1, ''scriptPubKey'': {''asm'': ''OP_DUP OP_HASH160 32f7bd61dd50daec7141db60f4a68d263b475745 OP_EQUALVERIFY OP_CHECKSIG'', ''hex'': ''76a91432f7bd61dd50daec7141db60f4a68d263b47574588ac'', ''reqSigs'': 1, ''type'': ''pubkeyhash'', ''addresses'': [''B96aBZv79fTHpS7yA6XD2P6Kb9uSEs14E2'']}}]}', '') RETURNING "Transaction_data_base_transaction"."id"
+2022-02-11 19:17:06.621 MSK [4532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:17:59.968 MSK [10216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:18:05.444 MSK [2752] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:21:38.478 MSK [3048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:22:08.324 MSK [8880] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:24:06.683 MSK [9636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:29:23.763 MSK [13864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:29:33.963 MSK [6496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:35:28.981 MSK [14812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:40:24.412 MSK [8060] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:42:16.538 MSK [10036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-02-11 19:42:18.843 MSK [2780] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
